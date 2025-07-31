@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-username/todo-app.git'
+                git 'https://github.com/adarsh31000/jenkins-ci-cd'
             }
         }
 
